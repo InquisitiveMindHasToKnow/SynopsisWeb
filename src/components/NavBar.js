@@ -3,6 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useEffect, useState } from 'react';
 
+import logo from '../assets/images/logo.svg'
+import firstNavIcon from '../assets/images/navi-icon1.svg'
+import secondNavIcon from '../assets/images/navi-icon2.svg'
+import thirdNavIcon from '../assets/images/navi-icon3.svg'
+
 export const Navbar = () => {
     const [activeLink, setActiveLink] = useState('home')
     const[scrolled, setScrolled] = useState(false)
@@ -24,6 +29,7 @@ export const Navbar = () => {
         return () => window.removeEventListener("scroll", onScroll)
     }, [])
 
+    //function to update active link
     const onUpdateActiveLink = (value) => {
         setActiveLink(value)
     }
@@ -32,7 +38,7 @@ export const Navbar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src = {''} alt = "Logo" />
+            <img src = {logo} alt = "Logo" />
         </Navbar.Brand>
         <Navbar.Toggle> aria-controls="basic-navbar-nav" 
         <span className="navbar-toggler-icon"></span>
@@ -45,9 +51,9 @@ export const Navbar = () => {
           </Nav>
           <span className='navbar-text'>
                 <div className='social-icon'> 
-                    <a href="#"><img src={''} alt="" /> </a>
-                    <a href="#"><img src={''} alt="" /> </a>
-                    <a href="#"><img src={''} alt="" /> </a>
+                    <a href="#"><img src={firstNavIcon} alt="" /> </a>
+                    <a href="#"><img src={secondNavIcon} alt="" /> </a>
+                    <a href="#"><img src={thirdNavIcon} alt="" /> </a>
                 </div>
                 <button className='scroll-to-skills' onClick={() => console.log("go to contact us form")}>
                     <span >Let's Connect</span>
