@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { useState, useEffect } from "react"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImage from "../assets/images/headerImage.svg"
+import headerImage from "../assets/images/header-img.svg"
 
 export const Banner = () => {
     
@@ -32,8 +32,8 @@ export const Banner = () => {
     }, [text])
 
     const tick = () => {
-        let index = loopIndex % toRotate.length
-        let fullText = toRotate[index]
+        let index = loopIndex % displayableAttributes.length
+        let fullText = displayableAttributes[index]
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1)
 
         setText(updatedText)
@@ -63,7 +63,7 @@ export const Banner = () => {
                      <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={7} xl={5}>
-                      <img src={''} alt="Header Image" />
+                      <img src={ headerImage } alt="Header Image" />
                     </Col>
                 </Row>
             </Container>
