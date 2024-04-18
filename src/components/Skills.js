@@ -50,7 +50,8 @@ export const Skills = () =>  {
                             </div>
                             <div className="corousel-item">
                                 <img src={meter2} alt="third-carousel-item" />
-                                <h5>Logo Design</h5>
+                                <h5>Miscellaneous</h5>
+                                <h6>• Jira <br/>• Git / Github <br/></h6>
                             </div>
                             <div className="corousel-item">
                                 <img src={meter1} alt="fourth-carousel-item" />
