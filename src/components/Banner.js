@@ -18,7 +18,7 @@ export const Banner = () => {
     const timePassed = 2000
 
     // attributes to be looped
-    const displayableAttributes = [ "Frontend Engineer.", "Mobile Engineer." ]
+    const displayableAttributes = [ "Analytical","Goal-Oriented", "Innovative", "Motivated", "Hardworking", "Team-Oriented", "Charismatic", "Professional", "Driven", "Forward-Thinking" ]
 
     // sets amount of time it takes for a letter to follow the previous one in the word. 
     const [delta, setDelta] = useState(300 - Math.random() * 100)
