@@ -8,7 +8,7 @@ export const Projects = () => {
     const projects = [
         {
           title: "Synopsis Java",
-          description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language.",
+          description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language!",
           imgUrl: projImg1,
         },
         {
