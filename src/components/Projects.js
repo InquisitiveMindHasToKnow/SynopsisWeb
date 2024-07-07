@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav, TabContainer } from "react-bootstrap";
-import projImg1 from "../assets/images/gow_img.avif"
+import projImg1 from "../assets/images/project-img2.png"
 import { ProjectCard } from "./ProjectCard"
 import colorSharp2 from '../assets/images/color-sharp2.png'
 
@@ -8,7 +8,7 @@ export const Projects = () => {
     const projects = [
         {
           title: "Synopsis Java",
-          description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language.",
+          description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language!",
           imgUrl: projImg1,
         },
         {

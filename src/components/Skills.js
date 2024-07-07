@@ -15,7 +15,7 @@ export const Skills = () =>  {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 4
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -36,7 +36,7 @@ export const Skills = () =>  {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>Over the past few years, I have both gained and improved my expertise in many areas.<br></br> These areas include but are not limited to:</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="corousel-item">
                                 <img src={meter3} alt="first-carousel-item" />
@@ -46,16 +46,17 @@ export const Skills = () =>  {
                             <div className="corousel-item">
                                 <img src={meter1} alt="second-carousel-item" />
                                 <h5>Mobile Development</h5>
-                                <h6>• Java <br/>• Kotlin <br/>• Jetpack Compose</h6>
+                                <h6>• Java <br/>• Kotlin <br/>• Jetpack Compose  <br/>• Python</h6>
+                            </div>
+                            <div className="corousel-item">
+                                <img src={meter1} alt="fourth-carousel-item" />
+                                <h5>Artificial Intelligence</h5>
+                                <h6>• LangGraph</h6><h6>• AutoGen</h6>
                             </div>
                             <div className="corousel-item">
                                 <img src={meter2} alt="third-carousel-item" />
                                 <h5>Miscellaneous</h5>
-                                <h6>• Jira <br/>• Git / Github <br/></h6>
-                            </div>
-                            <div className="corousel-item">
-                                <img src={meter1} alt="fourth-carousel-item" />
-                                <h5>Web Development</h5>
+                                <h6>• Jira <br/>• Git / Github <br/> • Grafana</h6>
                             </div>
                             </Carousel>
                        </div>
