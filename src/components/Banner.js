@@ -66,7 +66,6 @@ export const Banner = () => {
                                 <h1>{`Hey! I'm Omar. `} </h1>
                                 <h3> - {text}</h3>
                                 <p>I wanna be the very best that no one ever waaaas… ♫♪ ta na ta da ♫♪ …to write code is my real test, to test them is my caauuse! I’ll travel across the web, searching far and wiiiiide….to make effective methods, test and feeeaaatures to bring good apps to liiiifeee!!!</p>
-                                <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                                 </div>}
                         </TrackVisibility>
                     </Col>

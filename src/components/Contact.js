@@ -46,7 +46,7 @@ export const Contact = () => {
       let result = response.json
       setForDetails(initialDetails)
 
-      if (result.code == 200) {
+      if (result.code === 200) {
         setStatus({ succes: true, message: 'Message sent successfully'});
       } else {
         setStatus({ succes: false, message: 'Error submitting message. Please try again later.'});
