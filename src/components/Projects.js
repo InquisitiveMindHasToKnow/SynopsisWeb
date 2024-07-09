@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav, TabContainer } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import projImg1 from "../assets/images/project-img2.png"
 import { ProjectCard } from "./ProjectCard"
 import colorSharp2 from '../assets/images/color-sharp2.png'
@@ -53,13 +53,16 @@ export const Projects = () => {
                         <Tab.Container id="project-tabs" defaultActiveKey="firstTab">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                            <Nav.Item>
-                               <Nav.Link eventKey="firstTab">Tab 1</Nav.Link>
+                               <Nav.Link eventKey="firstTab">Python Projects</Nav.Link>
                            </Nav.Item>
                            <Nav.Item>
-                               <Nav.Link eventKey="secondTab">Tab 2</Nav.Link>
+                               <Nav.Link eventKey="secondTab">Kotlin Projects</Nav.Link>
                            </Nav.Item>
                            <Nav.Item>
-                               <Nav.Link eventKey="thirdTab">Tab 3</Nav.Link>
+                               <Nav.Link eventKey="thirdTab">Java Projects</Nav.Link>
+                           </Nav.Item>
+                           <Nav.Item>
+                               <Nav.Link eventKey="fourthTab">Web Projects</Nav.Link>
                            </Nav.Item>
                         </Nav>
                         <Tab.Content>
