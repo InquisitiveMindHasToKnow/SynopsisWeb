@@ -3,7 +3,6 @@ import projImg1 from "../assets/images/project-img2.png"
 import { ProjectCard } from "./ProjectCard"
 import colorSharp2 from '../assets/images/color-sharp2.png'
 
-
 export const Projects = () => {
     const projects = [
         {
