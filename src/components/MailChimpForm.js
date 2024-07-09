@@ -1,5 +1,5 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import { Newsletter } from "./Newsletter";
+import { NewsLetter } from "./NewsLetter";
 
 export const MailchimpForm = () => {
     //use environment variables to set values
@@ -10,7 +10,7 @@ export const MailchimpForm = () => {
       <MailchimpSubscribe
         url={postUrl}
         render={({ subscribe, status, message }) => (
-          <Newsletter
+          <NewsLetter
             status={status}
             message={message}
             onValidated={formData => subscribe(formData)}
