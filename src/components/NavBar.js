@@ -48,8 +48,8 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
                 <div className='social-icon'> 
-                    <a href="#"><img src={firstNavIcon} alt="" /> </a>
-                    <a href="#"><img src={secondNavIcon} alt="" /> </a>
+                    <a href="https://www.linkedin.com/in/omarraymond"><img src={firstNavIcon} alt="Omar LinkedIn" /> </a>
+                    <a href="https://github.com/InquisitiveMindHasToKnow"><img src={secondNavIcon} alt="Omar Github"/></a>
                     <a href="#"><img src={thirdNavIcon} alt="" /> </a>
                 </div>
                 <button className='scroll-to-skills' onClick={() => console.log("go to contact us form")}>

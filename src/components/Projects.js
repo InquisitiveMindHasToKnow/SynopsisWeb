@@ -2,6 +2,8 @@ import { Container, Row, Col, Tab, Nav, TabContainer } from "react-bootstrap";
 import projImg1 from "../assets/images/project-img2.png"
 import { ProjectCard } from "./ProjectCard"
 import colorSharp2 from '../assets/images/color-sharp2.png'
+import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
     const projects = [
@@ -41,7 +43,10 @@ export const Projects = () => {
         <section className="project" id="project">
             <Container>
                 <Row>
-                    <Col>
+                <Col size={12}>
+                    <TrackVisibility>
+                      {({ isVisible }) =>
+                        <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                         <h2>Projects</h2>
                         <p>Experienced programmer with over 5 years of expertise in developing innovative and scalable applications for both mobile and web platforms. Proficient in a wide range of programming languages, frameworks, and technologies, with a proven track record of delivering high-quality solutions to meet diverse business needs. Possesses a deep understanding of software development lifecycle, from concept to deployment, and adept at collaborating with cross-functional teams to drive project success. Skilled in problem-solving, code optimization, and staying updated with emerging trends in technology. Committed to delivering user-centric experiences and passionate about leveraging technology to drive positive impact. </p>
                         <Tab.Container id="project-tabs" defaultActiveKey="firstTab">
@@ -79,10 +84,12 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
+                        </div>}
+                      </TrackVisibility>  
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
+            <img className="background-image-right" src={colorSharp2} alt="background-img"></img>
         </section>
 
       )
