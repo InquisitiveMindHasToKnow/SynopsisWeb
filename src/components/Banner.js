@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import React, { useEffect, useState } from "react";
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImage from "../assets/images/header-img.svg"
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
     
@@ -57,15 +59,26 @@ export const Banner = () => {
             <Container>
                 <Row className="align-item-center">
                     <Col xs={12} md={6} xl={7}>
-                     <span className="tagline">Welcome to my Programming Portfolio</span>
-                     <h1>{`Hey! I'm Omar. `} </h1>
-                     <h3> - {text}</h3>
-                     <p>I wanna be the very best that no one ever waaaas… ♫♪ ta na ta da ♫♪ …to write code is my real test, to test them is my caauuse! I’ll travel across the web, searching far and wiiiiide….to make effective methods, test and feeeaaatures to bring good apps to liiiifeee!!!</p>
-                     <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                <span className="tagline">Welcome to my Programming Portfolio</span>
+                                <h1>{`Hey! I'm Omar. `} </h1>
+                                <h3> - {text}</h3>
+                                <p>I wanna be the very best that no one ever waaaas… ♫♪ ta na ta da ♫♪ …to write code is my real test, to test them is my caauuse! I’ll travel across the web, searching far and wiiiiide….to make effective methods, test and feeeaaatures to bring good apps to liiiifeee!!!</p>
+                                <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                                </div>}
+                        </TrackVisibility>
                     </Col>
-                    <Col xs={12} md={7} xl={5}>
-                      <img src={ headerImage } alt="Header" />
-                    </Col>
+                    
+                    <Col xs={12} md={6} xl={5}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={headerImage} alt="Header Img"/>
+                </div>}
+            </TrackVisibility>
+          </Col>
                 </Row>
             </Container>
         </section>
