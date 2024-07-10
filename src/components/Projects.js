@@ -14,37 +14,43 @@ export const Projects = () => {
       title: "Synopsis Java",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language!",
       imgUrl: projImg1,
-      category: "Python"
+      category: "Java",
+      link: "https://github.com/InquisitiveMindHasToKnow/Synopsis"
     },
     {
       title: "Synopsis Kotlin",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Kotlin language.",
       imgUrl: projImg1,
-      category: "Kotlin"
+      category: "Kotlin",
+      link: "https://github.com/InquisitiveMindHasToKnow/Synopsis_Kotlin"
     },
     {
       title: "Mastermind Java",
       description: "Android App showcasing a Mastermind app using java language.",
       imgUrl: projImg1,
-      category: "Java"
+      category: "Java",
+      link: "https://github.com/InquisitiveMindHasToKnow/Mastermind"
     },
     {
       title: "Save Bart",
       description: "By far the most fun you'll have guessing a 4-digit combination!",
       imgUrl: projImg1,
-      category: "Kotlin"
+      category: "Kotlin",
+      link: "https://github.com/InquisitiveMindHasToKnow/SaveBart"
     },
     {
       title: "Essential Facts",
       description: "Essential Facts aims to educate users on American History and current political facts and test their knowledge with a mini trivia from time to time.",
       imgUrl: projImg1,
-      category: "Web"
+      category: "Web",
+      link: "https://github.com/InquisitiveMindHasToKnow/EssentialFacts"
     },
     {
       title: "MiLaBiLa",
       description: "The one stop app to give your toddlers an early start to learning their numbers, days of the week, months of the year and much more!",
       imgUrl: projImg1,
-      category: "Web"
+      category: "Python",
+      link: "https://github.com/InquisitiveMindHasToKnow/MiLaBiLa"
     },
   ];
 

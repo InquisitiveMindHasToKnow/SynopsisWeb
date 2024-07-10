@@ -470,6 +470,10 @@ border-color: transparent;
   right: 0;
   z-index: -4;
 }
+.proj-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the inherited color */
+}
 /************ Contacts Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
