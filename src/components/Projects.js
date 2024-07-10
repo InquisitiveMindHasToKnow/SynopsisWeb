@@ -2,6 +2,10 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import projImg1 from "../assets/images/project-img2.png"
 import { ProjectCard } from "./ProjectCard"
 import colorSharp2 from '../assets/images/color-sharp2.png'
+import javaIcon from '../assets/images/java_icon.png'
+import kotlinIcon from '../assets/images/kotlin_icon.png'
+import pythonIcon from '../assets/images/python_icon.png'
+import reactIcon from '../assets/images/react_icon.png'
 import 'animate.css';
 
 export const Projects = () => {
@@ -66,16 +70,28 @@ export const Projects = () => {
                   <Tab.Container id="project-tabs" defaultActiveKey="firstTab">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="firstTab">Python Projects</Nav.Link>
+                        <Nav.Link eventKey="firstTab">
+                          <img src={pythonIcon} alt="Python Projects" style={{ width: '20px', marginRight: '8px' }}/> 
+                            Python Projects
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="secondTab">Kotlin Projects</Nav.Link>
+                        <Nav.Link eventKey="secondTab">
+                          <img src={kotlinIcon} alt="Kotlin Projects" style={{ width: '20px', marginRight: '8px' }}/> 
+                            Kotlin Projects
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="thirdTab">Java Projects</Nav.Link>
+                        <Nav.Link eventKey="thirdTab"> 
+                            <img src={javaIcon} alt="Java Projects" style={{ width: '20px', marginRight: '8px' }}/> 
+                            Java Projects
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="fourthTab">Web Projects</Nav.Link>
+                        <Nav.Link eventKey="fourthTab">
+                            <img src={reactIcon} alt="Web Projects" style={{ width: '20px', marginRight: '8px' }}/>
+                            Web Projects
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content>
