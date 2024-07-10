@@ -6,6 +6,7 @@ import javaIcon from '../assets/images/java_icon.png'
 import kotlinIcon from '../assets/images/kotlin_icon.png'
 import pythonIcon from '../assets/images/python_icon.png'
 import reactIcon from '../assets/images/react_icon.png'
+import synopsis_java_icon from '../assets/images/synopsis_java_icon.png'
 import 'animate.css';
 
 export const Projects = () => {
@@ -13,7 +14,7 @@ export const Projects = () => {
     {
       title: "Synopsis Java",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language!",
-      imgUrl: projImg1,
+      imgUrl: synopsis_java_icon,
       category: "Java",
       link: "https://github.com/InquisitiveMindHasToKnow/Synopsis"
     },
