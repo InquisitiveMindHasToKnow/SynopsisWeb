@@ -418,11 +418,23 @@ border-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+.proj-imgbx img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the entire image fits within the container */
+}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 300px; /* Set a fixed height or a height based on your design */
+  background-color: #ffffff; /* Optional: Add a background color to visualize the box */
+
 }
 .proj-imgbx::before {
   content: "";
