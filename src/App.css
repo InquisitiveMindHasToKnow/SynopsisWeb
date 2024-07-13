@@ -366,7 +366,7 @@ border-color: transparent;
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 78%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
