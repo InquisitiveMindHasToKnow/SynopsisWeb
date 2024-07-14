@@ -59,6 +59,14 @@ export const Projects = () => {
       category: "Web",
       link: "https://github.com/InquisitiveMindHasToKnow/MiLaBiLa"
     },
+    {
+      title: "Android Trivia",
+      description: "An interactive way to test your knowledge of the Android basics ",
+      imgUrl: projImg1,
+      category: "Kotlin",
+      link: "https://github.com/InquisitiveMindHasToKnow/AndroidTrivia"
+      
+    }
   ];
 
   const renderProjects = (category) => {
