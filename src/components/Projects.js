@@ -7,9 +7,10 @@ import kotlinIcon from '../assets/images/kotlin_icon.png'
 import pythonIcon from '../assets/images/python_icon.png'
 import reactIcon from '../assets/images/react_icon.png'
 import synopsis_java_icon from '../assets/images/synopsis_java_icon.png'
-import essential_facts_icon from '../assets/images/essentialfactslogo.png'
+import essential_facts_icon from '../assets/images/essential_facts.png'
 import savebart_icon from '../assets/images/savebart_icon.png'
 import mastermind_icon from '../assets/images/mastermind_.png'
+import synopsis_kotlin_icon from '../assets/images/synopsis_kotlin.png'
 
 
 
@@ -27,7 +28,7 @@ export const Projects = () => {
     {
       title: "Synopsis Kotlin",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Kotlin language.",
-      imgUrl: projImg1,
+      imgUrl: synopsis_kotlin_icon,
       category: "Python",
       link: "https://github.com/InquisitiveMindHasToKnow/Synopsis_Kotlin"
     },
@@ -46,7 +47,7 @@ export const Projects = () => {
       link: "https://github.com/InquisitiveMindHasToKnow/SaveBart"
     },
     {
-      title: "Essential Facts",
+      title: "",
       description: "Essential Facts aims to educate users on American History and current political facts and test their knowledge with a mini trivia from time to time.",
       imgUrl: essential_facts_icon,
       category: "Kotlin",
