@@ -8,9 +8,11 @@ import pythonIcon from '../assets/images/python_icon.png'
 import reactIcon from '../assets/images/react_icon.png'
 import synopsis_java_icon from '../assets/images/synopsis_java_icon.png'
 import essential_facts_icon from '../assets/images/essential_facts.png'
-import savebart_icon from '../assets/images/savebart_icon.png'
-import mastermind_icon from '../assets/images/mastermind_.png'
-import synopsis_kotlin_icon from '../assets/images/synopsis_kotlin.png'
+import savebart_icon from '../assets/images/save_bart.png'
+import mastermind_icon from '../assets/images/mastermind.png'
+import synopsis_kotlin_icon from '../assets/images/synopsis_kt.png'
+import android_trivia from '../assets/images/android_trivia.png'
+
 
 
 
@@ -26,7 +28,7 @@ export const Projects = () => {
       link: "https://github.com/InquisitiveMindHasToKnow/Synopsis"
     },
     {
-      title: "Synopsis Kotlin",
+      title: "",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Kotlin language.",
       imgUrl: synopsis_kotlin_icon,
       category: "Python",
@@ -63,7 +65,7 @@ export const Projects = () => {
     {
       title: "Android Trivia",
       description: "An interactive way to test your knowledge of the Android basics ",
-      imgUrl: projImg1,
+      imgUrl: android_trivia,
       category: "Kotlin",
       link: "https://github.com/InquisitiveMindHasToKnow/AndroidTrivia"
       
