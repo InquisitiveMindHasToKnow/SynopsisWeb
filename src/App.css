@@ -49,15 +49,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-title {
+  color: white;
+  font-weight: 700;
 }
 
 .App-header {
