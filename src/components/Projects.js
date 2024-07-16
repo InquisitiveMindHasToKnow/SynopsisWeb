@@ -6,12 +6,15 @@ import javaIcon from '../assets/images/java_icon.png'
 import kotlinIcon from '../assets/images/kotlin_icon.png'
 import pythonIcon from '../assets/images/python_icon.png'
 import reactIcon from '../assets/images/react_icon.png'
-import synopsis_java_icon from '../assets/images/synopsis_java_icon.png'
+import synopsis_java_icon from '../assets/images/synopsis_java.png'
 import essential_facts_icon from '../assets/images/essential_facts.png'
 import savebart_icon from '../assets/images/save_bart.png'
 import mastermind_icon from '../assets/images/mastermind.png'
 import synopsis_kotlin_icon from '../assets/images/synopsis_kt.png'
-import android_trivia from '../assets/images/android_trivia.png'
+import android_trivia_icon from '../assets/images/android_trivia.png'
+import milabila_icon from '../assets/images/milabila.png'
+import synopsis_web_icon from '../assets/images/synopsis_web.png'
+
 
 
 
@@ -21,14 +24,14 @@ import 'animate.css';
 export const Projects = () => {
   const projects = [
     {
-      title: "Synopsis Java",
+      title: "Synopsis: Java",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Java language!",
       imgUrl: synopsis_java_icon,
       category: "Java",
       link: "https://github.com/InquisitiveMindHasToKnow/Synopsis"
     },
     {
-      title: "",
+      title: "Synopsis: Kotlin",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Kotlin language.",
       imgUrl: synopsis_kotlin_icon,
       category: "Python",
@@ -58,17 +61,23 @@ export const Projects = () => {
     {
       title: "MiLaBiLa",
       description: "The one stop app to give your toddlers an early start to learning their numbers, days of the week, months of the year and much more!",
-      imgUrl: projImg1,
-      category: "Web",
+      imgUrl: milabila_icon,
+      category: "Kotlin",
       link: "https://github.com/InquisitiveMindHasToKnow/MiLaBiLa"
     },
     {
       title: "Android Trivia",
       description: "An interactive way to test your knowledge of the Android basics ",
-      imgUrl: android_trivia,
+      imgUrl: android_trivia_icon,
       category: "Kotlin",
       link: "https://github.com/InquisitiveMindHasToKnow/AndroidTrivia"
-      
+    },
+    {
+      title: "Synopsis:Web",
+      description: " ",
+      imgUrl: synopsis_web_icon,
+      category: "Web",
+      link: ""   
     }
   ];
 
