@@ -13,6 +13,7 @@ import synopsis_kotlin_icon from '../assets/images/synopsis_kt.png'
 import android_trivia_icon from '../assets/images/android_trivia.png'
 import milabila_icon from '../assets/images/milabila.png'
 import synopsis_web_icon from '../assets/images/synopsis_web.png'
+import gpt3_icon from '../assets/images/gpt3_icon.png'
 
 
 
@@ -77,6 +78,13 @@ export const Projects = () => {
       imgUrl: synopsis_web_icon,
       category: "Web",
       link: ""   
+    },
+    {
+      title: "GPT-3",
+      description: "Reactive web app",
+      imgUrl: gpt3_icon,
+      category: "Web",
+      link: "https://github.com/InquisitiveMindHasToKnow/GPT-3"   
     }
   ];
 
