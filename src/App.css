@@ -281,22 +281,16 @@ border-color: transparent;
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+.banner-imgbx {
+  border-radius: 30px;
+  height: 600px; 
+  width: 300px;
+
 }
 
 /* Skills Css */
