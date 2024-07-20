@@ -52,7 +52,7 @@ export const Projects = () => {
       link: "https://github.com/InquisitiveMindHasToKnow/SaveBart"
     },
     {
-      title: "",
+      title: "Essential Facts",
       description: "Essential Facts aims to educate users on American History and current political facts and test their knowledge with a mini trivia from time to time.",
       imgUrl: essential_facts_icon,
       category: "Kotlin",
