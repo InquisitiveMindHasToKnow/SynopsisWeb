@@ -14,6 +14,7 @@ import android_trivia_icon from '../assets/images/android_trivia.png'
 import milabila_icon from '../assets/images/milabila.png'
 import synopsis_web_icon from '../assets/images/synopsis_web.png'
 import gpt3_icon from '../assets/images/gpt3_icon.png'
+import quizgame_icon from '../assets/images/quizgame_icon.png'
 
 
 
@@ -34,7 +35,7 @@ export const Projects = () => {
       title: "Synopsis: Kotlin",
       description: "An interactive way to glean a synopsis of my professional resume as an Android Developer using the Kotlin language.",
       imgUrl: synopsis_kotlin_icon,
-      category: "Python",
+      category: "Kotlin",
       link: "https://github.com/InquisitiveMindHasToKnow/Synopsis_Kotlin"
     },
     {
@@ -85,6 +86,13 @@ export const Projects = () => {
       imgUrl: gpt3_icon,
       category: "Web",
       link: "https://github.com/InquisitiveMindHasToKnow/GPT-3"   
+    },
+    {
+      title: "QuizGame",
+      description: "QuizGame is a Python application that selects 10 random questions from a list of programming questions of all varieties and quizzes the user who's challenge is to get 10/10 correct. ",
+      imgUrl: quizgame_icon,
+      category: "Python",
+      link: "https://github.com/InquisitiveMindHasToKnow/QuizGame"   
     }
   ];
 
