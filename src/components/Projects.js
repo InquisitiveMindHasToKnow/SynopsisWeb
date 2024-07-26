@@ -17,9 +17,6 @@ import gpt3_icon from '../assets/images/gpt3_icon.png'
 import quizgame_icon from '../assets/images/quizgame_icon.png'
 
 
-
-
-
 import 'animate.css';
 
 export const Projects = () => {
