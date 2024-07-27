@@ -82,7 +82,7 @@ export const Projects = () => {
       description: "Reactive web app",
       imgUrl: gpt3_icon,
       category: "Web",
-      link: "https://github.com/InquisitiveMindHasToKnow/GPT-3"   
+      link: "https://inquisitivemindhastoknow.github.io/GPT-3/"   
     },
     {
       title: "QuizGame",
